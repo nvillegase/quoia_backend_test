@@ -3,11 +3,7 @@
 En este repositorio encontrarás una aplicación básica desarrollada en Django con una base de datos sqlite cuyo propósito es almacenar información de mediciones de variables eléctricas tomadas por unos medidores de energía, y permitir que la información sea procesada y consultada a través de API's.
 
 Se requiere desarrollar:
-<<<<<<< HEAD
 * Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-11 14:00-05:00&datetime_to=2022-05-11 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con id `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. Ejemplo de salida:
-=======
-* Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-11 14:00-05:00&datetime_to=2022-05-11 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con identificador `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. (hora de Colombia). Ejemplo de salida:
->>>>>>> e013bcca0441f2357151b2450d346ea129a615c4
 ```
 [
     {
