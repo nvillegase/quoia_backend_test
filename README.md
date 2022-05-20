@@ -1,9 +1,11 @@
 ## Prueba técnica Desarrollador Back-end [Solenium](https://solenium.co)
 
-En este repositorio encontrarás una aplicación básica desarrollada en Django con una base de datos sqlite cuyo propósito es almacenar información de mediciones de variables eléctricas tomadas por unos medidores de energía, y permitir que la información sea procesada y consultada a través de API's.
+En este repositorio encontrarás una aplicación básica desarrollada en Django cuyo propósito es almacenar información de mediciones de variables eléctricas tomadas por unos medidores de energía, y permitir que la información sea procesada y consultada a través de API's.
+
+En el repositorio encontrarás una base de datos SQLite prepoblada con mediciones eléctricas entre el 11 de mayo de 2022 a las 00:00 horas y 13 de mayo de 2022 a las 23:59 horas, que ya se encuentra configurada para funcionar con el proyecto de Django.
 
 Se requiere desarrollar:
-* Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-11 14:00-05:00&datetime_to=2022-05-11 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con id `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. Ejemplo de salida:
+* Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-12 14:00-05:00&datetime_to=2022-05-12 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con id `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. Ejemplo de salida:
 ```
 [
     {
