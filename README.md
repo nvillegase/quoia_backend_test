@@ -7,49 +7,49 @@ Se requiere desarrollar:
 ```
 [
     {
-        "date_time":"2022-05-12T19:01:04+00:00",
+        "date_time":"2022-05-12T14:01:04-05:00",
         "voltage":119.2,
         "current":1.73,
         "active_power":121.89,
         "reactive_power":160.04
     },
     {
-        "date_time":"2022-05-12T19:01:44+00:00",
+        "date_time":"2022-05-12T14:01:44-05:00",
         "voltage":119.1,
         "current":1.73,
         "active_power":121.3,
         "reactive_power":160.04
     },
     {
-        "date_time":"2022-05-12T19:02:04+00:00",
+        "date_time":"2022-05-12T14:02:04-05:00",
         "voltage":119.2,
         "current":1.73,
         "active_power":121.3,
         "reactive_power":160.04
     },
     {
-        "date_time":"2022-05-12T19:02:44+00:00",
+        "date_time":"2022-05-12T14:02:44-05:00",
         "voltage":119.3,
         "current":1.73,
         "active_power":121.89,
         "reactive_power":160.64
     },
     {
-        "date_time":"2022-05-12T19:03:04+00:00",
+        "date_time":"2022-05-12T14:03:04-05:00",
         "voltage":119.4,
         "current":1.73,
         "active_power":121.3,
         "reactive_power":161.23
     },
     {
-        "date_time":"2022-05-12T19:03:46+00:00",
+        "date_time":"2022-05-12T14:03:46-05:00",
         "voltage":119.4,
         "current":1.73,
         "active_power":120.7,
         "reactive_power":160.64
     },
     {
-        "date_time":"2022-05-12T19:04:04+00:00",
+        "date_time":"2022-05-12T14:04:04-05:00",
         "voltage":119.4,
         "current":1.73,
         "active_power":120.7,
