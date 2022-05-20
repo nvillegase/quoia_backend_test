@@ -1,4 +1,4 @@
-## Convocatoria Desarrollador Back-end [Solenium](https://solenium.co)
+## Prueba técnica Desarrollador Back-end [Solenium](https://solenium.co)
 
 En este repositorio encontrarás una aplicación básica desarrollada en Django y una base de datos (sqlite) prepoblada con información de medición de diferentes variables de energía.
 
