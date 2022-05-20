@@ -1,9 +1,9 @@
 ## Convocatoria Desarrollador Back-end [Solenium](https://solenium.co)
 
-En este repositorio encontrarás una aplicación básica desarrollada en Django y una base de datos (sqlite) prepoblada con información de medición de diferentes variables de energía.
+En este repositorio encontrarás una aplicación básica desarrollada en Django con una base de datos sqlite cuyo propósito es almacenar información de mediciones de variables eléctricas tomadas por unos medidores de energía, y permitir que la información sea procesada y consultada a través de API's.
 
 Se requiere desarrollar:
-1. Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-11 14:00-05:00&datetime_to=2022-05-11 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con identificador `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. (hora de Colombia). Ejemplo de salida:
+* Una API que permita consultar las mediciones eléctricas de un medidor de energía en particular, entre dos fechas determinadas. Por ejemplo, al hacer un `GET` a un endpoint como `/api/measurements?meter=1&datetime_from=2022-05-11 14:00-05:00&datetime_to=2022-05-11 14:30-05:00` se debería debe devolver en formato JSON las mediciones de energía del medidor con id `1` que se hayan tomado el 11 de mayo de 2022 entre las 2:00 p.m. y las 2:30 p.m. Ejemplo de salida:
 ```
 [
     {
@@ -59,9 +59,7 @@ Se requiere desarrollar:
 ```
 
 
-
-
-* (Opcional) Una API que devuelva cuál fue la potencia activa máxima (campo `active_power`) en cada una de las horas del día, para un día y un medidor específico. Por ejemplo, al consultar `/api/max_power?meter=1&date=2022-05-11` devolver algo como:
+* (Opcional) Una API que permita conocer cuál fue la potencia máxima registrada por un medidor en particular en cada una de las horas del día, para una fecha determinada. El campo de la base de datos que corresponde a la potencia es `active_power`. Por ejemplo, al consultar `/api/max_power?meter=1&date=2022-05-11` devolver algo como:
 
 ```
 [
